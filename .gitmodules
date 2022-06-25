@@ -1,3 +1,6 @@
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/Ak-prog-50/The_Auction_contracts
+[submodule "client"]
+	path = client
+	url = https://github.com/Ak-prog-50/Auction_FrontEnd
