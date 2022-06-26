@@ -22,9 +22,10 @@
     <br />
     <a href="#about-the-project">About</a>
     ·&nbsp;
-    <a href="#local-development">Local Development</a>
+    <a href="https://youtu.be/_qbURf-wz3w">View Demo</a>
     ·&nbsp;
-    <a href="#usage">Usage</a>
+     <a href="https://gasless-auction.web.app/">Visit Website</a>
+      
   </p>
 </div>
 
@@ -35,7 +36,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#built-with">About the Project</a>
+      <a href="#about-the-project">About the Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -50,12 +51,21 @@
 
 
 <!-- ABOUT THE PROJECT -->
+## About The Project
 
 </br>
 <p align="center">
   <img src="https://cdn.pixabay.com/photo/2014/04/03/10/45/hammer-311343_960_720.png" alt="project_imgage" width="400" height="350" style="object-fit:contain;">
 </p>
 </br>
+
+This repo contains source code for the front-end, smart contracts, and unit tests of the Gasless Auction. When creating a new auction, the auction owner must deploy an ERC-20 token contract. The asset that's going to be sold is wrapped in an ERC-721 contract.  
+
+Participants will get an ERC-20 token when they are entering to the auction. Then anyone with that token can place bids in the auction.
+The token will be burned when placing the bid. So, one token equals one bid. After the auction is over, the highest bidder can redeem the NFT by sending the promised value.
+
+<b>TODO : Use biconomy or open gsn to make transactions gasless</b> </br>
+[View Demo](https://youtu.be/_qbURf-wz3w)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
