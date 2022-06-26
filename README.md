@@ -61,8 +61,8 @@
 
 This repo contains source code for the front-end, smart contracts, and unit tests of the Gasless Auction. When creating a new auction, the auction owner must deploy an ERC-20 token contract. The asset that's going to be sold is wrapped in an ERC-721 contract.  
 
-Participants will get an ERC-20 token when they are entering to the auction. Then anyone with that token can place bids in the auction.
-The token will be burned when placing the bid. So, one token equals one bid. After the auction is over, the highest bidder can redeem the NFT by sending the promised value.
+Participants will get an ERC-20 token when they are entering the auction. Then anyone with that token can place bids.
+The token will be burned when placing the bid. So, one token equals one bid. After the auction is over, the highest bidder can redeem the NFT by sending the promised value to the contract.
 
 <b>TODO : Use biconomy or open gsn to make transactions gasless</b> </br>
 [View Demo](https://youtu.be/_qbURf-wz3w)
