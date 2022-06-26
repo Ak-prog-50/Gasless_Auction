@@ -15,7 +15,9 @@
 
   <h3 align="center">The Gasless Auction</h3>
   <p align="center">
-    Provide a gasless experience to users with meta transactions...
+    Provide a gasless experience to users with meta transactions...  
+    <br />
+    <a href="https://rinkeby.etherscan.io/address/0x47410f30162fe970a50f07ffd9abf240f44f0812#readContract"><strong>View on Etherscan »</strong></a>
     <br />
     <br />
     <a href="#about-the-project">About</a>
