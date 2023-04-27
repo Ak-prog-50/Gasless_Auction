@@ -103,8 +103,9 @@ This repo contains client side code written with React.js
   git submodule init
   git submodule update
   ```
-**To update the submodules:**
+**To update the submodule pointers on parent repo:**
 ```
+  // Run below after pushing changes to sub module repos.
   git submodule update --remote
   git add .
   git commit -m "git submodule updated"
