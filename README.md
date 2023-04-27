@@ -97,6 +97,20 @@ This repo includes deploy scripts, unit tests and staging tests and scripts for 
 This repo contains client side code written with React.js
 </br>
 
+**To clone the repo:**
+  ```
+  git clone git@github.com:Ak-prog-50/Gasless_Auction.git
+  git submodule init
+  git submodule update
+  ```
+**To update the submodules:**
+```
+  git submodule update --remote
+  git add .
+  git commit -m "git submodule updated"
+  git push origin
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
